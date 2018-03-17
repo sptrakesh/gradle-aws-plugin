@@ -19,7 +19,7 @@ apply plugin: "jp.classmethod.aws.cloudformation"
 
 // ==== Project settings
 
-group = 'jp.classmethod.aws.gradle.sample'
+group = 'com.sptci.aws.gradle.sample'
 version = '0.1-SNAPSHOT'
 ext.artifactId = '06-cloudformation'
 

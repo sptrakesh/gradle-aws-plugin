@@ -15,9 +15,7 @@ ext {
 	describedCommit = git.describe().toString().trim()
 }
 
-version = describedCommit +
-	(describedCommit.matches(".*-[0-9]+-g[0-9a-f]{7}") ? "-SNAPSHOT" : "") +
-	(git.status().isClean() ? "" : "+dirty")
+version = '0.5.0'
 
 task showVersion {
 	doLast {
