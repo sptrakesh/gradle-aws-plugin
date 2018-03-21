@@ -86,7 +86,7 @@ buildscript {
     maven { url "https://plugins.gradle.org/m2/" }
   }
   dependencies {
-    classpath "com.sptci.aws:gradle-aws-plugin:0.30"
+    classpath "com.sptci.aws:gradle-aws-plugin:0.5.0"
   }
 }
 
